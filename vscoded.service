@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the VS code tunnel
+
+[Service]
+Type=oneshot
+ExecStart=vscoded.sh
+
+[Install]
+WantedBy=multi-user.target
